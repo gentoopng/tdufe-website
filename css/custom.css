@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=M+PLUS+1p:wght@400;700&family=Noto+Sans+JP:wght@400;600;700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.6.1/css/all.css');
+
+.siteroot:before{
+    content:"/s1g-tekken/newhptest/"
+}
+
+:root{
+    --font-family-sans-serif: -apple-system, "BlinkMacSystemFont", "Inter", "Helvetica Neue", Helvetica, "Arial", "a-otf-ud-shin-go-pr6n", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+    font-family:  "Inter", "Helvetica Neue", Helvetica, "Arial","M PLUS 1p", "a-otf-ud-shin-go-pr6n", "Noto Sans JP",  "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    color: #545454;
+    padding-top: 80px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Inter", "Helvetica Neue", Helvetica, "Arial", "M PLUS 1p", "Noto Sans JP", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-weight:700;
+}
+
+.twitterbtn {
+    color: #fff;
+	background-color: #009EF5;
+}
+
+.twitterbtn:hover {
+    color: #fff;
+    background-color: #008EE0;
+  }

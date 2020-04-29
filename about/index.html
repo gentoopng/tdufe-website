@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang ="ja">
+<head>
+    <meta charset="utf-8">
+    <title>TDUFe - 部活紹介</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'vuv2nzk',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+
+        $(function(){
+        $("#menu").load("common/menu.html");
+        });
+      </script>
+
+    <meta name="viewport" content="width-devide-width, initial-scale=1, shrink-to-fot=no">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/custom.css">
+
+</head>
+<body>
+
+    <div id="menu" class="fixed-top"></div>
+
+    <div class="container">
+        <h1 class="display-4">About</h1>
+        <h3 class="font-weight-normal text-secondary">当部について</h3>
+        <hr>
+    </div>
+
+
+
+    <div class="container-fluid mt-5 jumbotron">
+        <div class="container">
+            <h4>このページは工事中です。</h4>
+            <h4 class="text-muted">Under construction.</h4>
+            <h1 class="display-3 my-4">m(_ _)m</h1>
+            
+            <a class="btn btn-primary mt-4" href="index.html"><i class="fas fa-angle-double-left faa-passing-reverse animated"></i> Back</a>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

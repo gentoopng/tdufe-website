@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang ="ja">
+<head>
+    <meta charset="utf-8">
+    <title>TDUFe - 活動紹介</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'vuv2nzk',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+
+        $(function(){
+        $("#menu").load("common/menu.html");
+        });
+      </script>
+
+    <meta name="viewport" content="width-devide-width, initial-scale=1, shrink-to-fot=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+</head>
+<body>
+
+    <div id="menu" class="fixed-top"></div>
+
+    <div class="container">
+        <h1 class="display-4">Contact</h1>
+        <h3 class="font-weight-normal text-secondary">お問い合わせ</h3>
+        <hr>
+    </div>
+
+    <div class="container pt-4">
+        <ul>
+            <li class="mb-3">Twitter：<br><a class="font-weight-bold" href="https://twitter.com/tdufe/">@tdufe</a>
+                <div class="text-muted">DMなどでご連絡ください。</div></li>
+            <li class="mb-3">メール：<br><strong class="text-monospace">tdufe(at)hotmail.com</strong>
+                <div class="text-muted">(at)の部分をアットマークに置き換えてください。</div></li>
+        </ul>
+    </div>
+
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
