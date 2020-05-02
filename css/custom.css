@@ -22,10 +22,14 @@ h1, h2, h3, h4, h5, h6{
     font-weight:700;
 }
 
+.padding-top-80px {
+    padding-top: 80px;
+}
 
 .jumbotron-top {
     background:url(../images/top/top_jumbotron.jpg) center no-repeat;
     background-size: cover;
+    background-position-y: 47%;
 }
 
 .shadow0{
@@ -45,7 +49,7 @@ h1, h2, h3, h4, h5, h6{
 /* ～479px：SP縦 */
 @media screen and (max-width:479px) {
     .jumbotron-top {
-        background-position-y: 30%;
+        background-position-y: 25%;
     }
 }
 
