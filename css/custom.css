@@ -10,16 +10,30 @@
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-body {
+body{
     font-family:  "Inter", "Helvetica Neue", Helvetica, "Arial","M PLUS 1p", "a-otf-ud-shin-go-pr6n", "Noto Sans JP",  "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 400;
     color: #545454;
     padding-top: 80px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6{
     font-family: "Inter", "Helvetica Neue", Helvetica, "Arial", "M PLUS 1p", "Noto Sans JP", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
     font-weight:700;
+}
+
+.padding-top-80px {
+    padding-top: 80px;
+}
+
+.jumbotron-top {
+    background:url(../images/top/top_jumbotron.jpg) center no-repeat;
+    background-size: cover;
+    background-position-y: 47%;
+}
+
+.shadow0{
+    text-shadow:0px 0px 3px #000;
 }
 
 .twitterbtn {
@@ -30,4 +44,31 @@ h1, h2, h3, h4, h5, h6 {
 .twitterbtn:hover {
     color: #fff;
     background-color: #008EE0;
-  }
+}
+
+/* ～479px：SP縦 */
+@media screen and (max-width:479px) {
+    .jumbotron-top {
+        background-position-y: 25%;
+    }
+}
+
+/* 480px〜599px：SP横 */
+@media screen and (min-width:480px) and (max-width:599px) {
+}
+
+/* 600px〜959px：タブレット */
+@media screen and (min-width:600px) and (max-width:959px){
+    .jumbotron-top {
+        padding-top:100px;
+        padding-bottom:100px;
+    }
+}
+
+/* 960px～1279px：小型PC */
+@media screen and (min-width:960px){
+    .jumbotron-top {
+        padding-top:200px;
+        padding-bottom:200px;
+    }
+}
